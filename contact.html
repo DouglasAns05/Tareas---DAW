@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contáctanos</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Acerca de mí</a>
+        <a href="contact.html">Contacto</a>
+    </nav>
+
+    <main>
+        <br>
+        <form action="index.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" required>
+            <br><br>
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha" id="fecha" required>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <br><br>
+            <p>¿Deseas recibir novedades por correo?</p>
+            <input type="checkbox" id="suscribirse" name="suscribirse" value="si">
+            <label for="suscribirse">Sí, quiero suscribirme.</label>
+            <br><br>
+            <p>¿Cuál es tu nivel de satisfacción?</p>
+            <input type="radio" id="excelente" name="satisfaccion" value="excelente" required>
+            <label for="excelente">Excelente</label><br>
+            <input type="radio" id="bueno" name="satisfaccion" value="bueno">
+            <label for="bueno">Bueno</label><br>
+            <input type="radio" id="regular" name="satisfaccion" value="regular">
+            <label for="regular">Regular</label><br>
+            <input type="radio" id="malo" name="satisfaccion" value="malo">
+            <label for="malo">Malo</label><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>@2025 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
